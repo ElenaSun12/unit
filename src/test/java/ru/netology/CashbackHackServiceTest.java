@@ -15,13 +15,13 @@ public class CashbackHackServiceTest {
         Assert.assertEquals(actual, expected);
     }
 
-//    @Test
-//    public void testRemainWhenAmountIs1000() {
-//        int amount = 1000;
-//        int expected = 0;
-//        int actual = service.remain(amount);
-//        Assert.assertEquals(actual, expected);
-//    }
+    @Test
+    public void testRemainWhenAmountIs1000() {
+        int amount = 1000;
+        int expected = 0;
+        int actual = service.remain(amount);
+        Assert.assertEquals(actual, expected);
+    }
 
     @Test
     public void testRemainWhenAmountIsOver1000() {
